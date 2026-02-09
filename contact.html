@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - ท่องเที่ยวลำปาง</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header และ Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>🐘 ลำปาง เมืองม้าลำปาง</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="wat-phra-that.html">วัดพระธาตุลำปางหลวง</a></li>
+                    <li><a href="kad-kong-ta.html">ตลาดกาดกองต้า</a></li>
+                    <li><a href="elephant-center.html">ศูนย์อนุรักษ์ช้างไทย</a></li>
+                    <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 300px; background-image: linear-gradient(rgba(244, 164, 96, 0.8), rgba(210, 105, 30, 0.8)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&h=400&fit=crop');">
+        <div class="hero-content">
+            <h2>ติดต่อเรา</h2>
+            <p>มีคำถามหรือข้อสงสัยเพิ่มเติม? ติดต่อเราได้เลย!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <!-- ข้อมูลติดต่อ -->
+                <div class="contact-info">
+                    <h2 style="color: #8B4513; margin-bottom: 30px;">ข้อมูลติดต่อ</h2>
+
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="color: #F4A460; margin-bottom: 15px;">📍 ที่อยู่</h3>
+                        <p>เว็บไซต์ท่องเที่ยวลำปาง<br>
+                            จังหวัดลำปาง<br>
+                            ภาคเหนือ ประเทศไทย 52000
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="color: #F4A460; margin-bottom: 15px;">📞 เบอร์โทรศัพท์</h3>
+                        <p>โทร: 054-XXX-XXXX<br>
+                            มือถือ: 08X-XXX-XXXX
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="color: #F4A460; margin-bottom: 15px;">📧 อีเมล</h3>
+                        <p>info@lampang-tourism.com<br>
+                            contact@lampang-tourism.com
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="color: #F4A460; margin-bottom: 15px;">⏰ เวลาทำการ</h3>
+                        <p>จันทร์ - ศุกร์: 08:00 - 17:00 น.<br>
+                            เสาร์ - อาทิตย์: 09:00 - 16:00 น.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 style="color: #F4A460; margin-bottom: 15px;">🌐 โซเชียลมีเดีย</h3>
+                        <p>Facebook: LampangTourism<br>
+                            Instagram: @lampang_travel<br>
+                            Twitter: @LampangTravel<br>
+                            LINE: @lampangtour
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ฟอร์มติดต่อเรา -->
+                <div class="contact-form">
+                    <h2 style="color: #8B4513; margin-bottom: 30px;">ส่งข้อความถึงเรา</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">ชื่อ - นามสกุล *</label>
+                            <input type="text" id="name" name="name" required placeholder="กรุณาระบุชื่อ - นามสกุล">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">อีเมล *</label>
+                            <input type="email" id="email" name="email" required placeholder="example@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">เบอร์โทรศัพท์ *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="08X-XXX-XXXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">หัวข้อ *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="หัวข้อที่ต้องการติดต่อ">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">ข้อความ *</label>
+                            <textarea id="message" name="message" required placeholder="พิมพ์ข้อความของคุณที่นี่..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">ส่งข้อความ</button>
+                    </form>
+
+                    <div style="margin-top: 20px; padding: 15px; background-color: #FFF8DC; border-radius: 5px;">
+                        <p style="font-size: 14px; color: #666; margin: 0;">
+                            <strong>หมายเหตุ:</strong> ฟิลด์ที่มีเครื่องหมาย * จำเป็นต้องกรอก เราจะตอบกลับภายใน 24 ชั่วโมง
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- คำถามที่พบบ่อย (FAQ) -->
+            <div style="margin-top: 80px;">
+                <h2 class="section-title">คำถามที่พบบ่อย (FAQ)</h2>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                        <h3 style="color: #8B4513; margin-bottom: 15px;">🚗 การเดินทางไปลำปาง</h3>
+                        <p>จากกรุงเทพฯ สามารถเดินทางโดยรถยนต์ รถไฟ หรือเครื่องบิน ระยะทางประมาณ 600 กิโลเมตร ใช้เวลาประมาณ 8-9 ชั่วโมง</p>
+                    </div>
+
+                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                        <h3 style="color: #8B4513; margin-bottom: 15px;">⏰ ช่วงเวลาที่เหมาะสมในการท่องเที่ยว</h3>
+                        <p>ช่วงเดือนพฤศจิกายน - กุมภาพันธ์ เป็นช่วงที่อากาศเย็นสบาย เหมาะสำหรับการท่องเที่ยวและถ่ายภาพ</p>
+                    </div>
+
+                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                        <h3 style="color: #8B4513; margin-bottom: 15px;">🏨 ที่พัก</h3>
+                        <p>ลำปางมีที่พักหลากหลายระดับ ตั้งแต่โฮมสเตย์ รีสอร์ท จนถึงโรงแรมระดับ 4-5 ดาว ราคาเริ่มต้นประมาณ 500 บาทต่อคืน</p>
+                    </div>
+
+                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                        <h3 style="color: #8B4513; margin-bottom: 15px;">🍜 อาหารแนะนำ</h3>
+                        <p>ต้องลองขนมจีน น้ำเงี้ยว ข้าวซอยลำปาง แคบหมู และของฝากเด็ด ๆ เช่น ข้าวเกรียบปลา</p>
+                    </div>
+
+                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                        <h3 style="color: #8B4513; margin-bottom: 15px;">🎫 ค่าครองชี
